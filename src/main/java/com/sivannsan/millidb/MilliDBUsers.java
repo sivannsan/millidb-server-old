@@ -3,7 +3,7 @@ package com.sivannsan.millidb;
 import com.sivannsan.foundation.annotation.Nonnull;
 
 //Permission, later
-public class MilliDBUsers {
+public final class MilliDBUsers {
     public static boolean hasUser(@Nonnull String userName, @Nonnull String userPassword) {
         return true;
     }

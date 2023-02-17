@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Log on console and store them in the files in logs directory
  */
-public class MilliDBLogs {
+public final class MilliDBLogs {
     @Nonnull
     private static final File directory = new File("logs");
     private static File file;

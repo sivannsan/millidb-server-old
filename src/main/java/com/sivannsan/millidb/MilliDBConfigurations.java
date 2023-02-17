@@ -5,7 +5,7 @@ import com.sivannsan.millidata.MilliValue;
 import com.sivannsan.millifile.MilliDocument;
 import com.sivannsan.millifile.MilliFiles;
 
-public class MilliDBConfigurations {
+public final class MilliDBConfigurations {
     private static MilliDocument configuration;
     private static MilliMap content;
 

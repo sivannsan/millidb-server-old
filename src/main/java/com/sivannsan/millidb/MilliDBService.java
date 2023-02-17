@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class MilliDBService {
+public final class MilliDBService {
     @Nonnull
     private final Socket socket;
     private String userName;
