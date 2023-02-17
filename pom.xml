@@ -13,4 +13,34 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.sivannsan</groupId>
+            <artifactId>foundation</artifactId>
+            <version>d65ab0d</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.sivannsan</groupId>
+            <artifactId>millidata</artifactId>
+            <version>c289d11</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.sivannsan</groupId>
+            <artifactId>millifile</artifactId>
+            <version>f691ce3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.sivannsan</groupId>
+            <artifactId>millidb-client</artifactId>
+            <version>8078a66</version>
+        </dependency>
+    </dependencies>
 </project>
